@@ -1,0 +1,162 @@
+{
+    "shop_info": {
+        "shop_name": "Shravasti OZO Mineral Water Shop",
+        "shop_timings": "Monday to Thursday, 1:30 PM to 7:00 PM",
+        "brands": [
+            "OZO",
+            "Versha",
+            "Royal Blue",
+            "Campa Sure"
+        ]
+    },
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "good morning",
+                "good evening",
+                "hlo",
+                "hy"
+            ],
+            "responses": [
+                "Hi!",
+                "Hello! How can I help you?",
+                "Welcome to Shravasti OZO Mineral Water Shop.",
+                "Good morning to you. How can I help you?"
+            ]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "how are you",
+                "how are you doing",
+                "are you fine",
+                "how do you feel"
+            ],
+            "responses": [
+                "I am fine.",
+                "I am doing well.",
+                "Everything is good."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "ok bye",
+                "bye bye"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you again.",
+                "Thank you for visiting."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thx",
+                "thanks a lot"
+            ],
+            "responses": [
+                "You are welcome.",
+                "Happy to help.",
+                "Anytime."
+            ]
+        },
+        {
+            "tag": "shop_name",
+            "patterns": [
+                "shop name",
+                "what is the shop name",
+                "your shop name",
+                "name of shop",
+                "what is your shop name",
+                "tell me shop name",
+                "shop"
+            ],
+            "responses": [
+                "Shravasti OZO Mineral Water Shop",
+                "Our shop name is Shravasti OZO Mineral Water Shop."
+            ]
+        },
+        {
+            "tag": "shop_time",
+            "patterns": [
+                "shop time",
+                "shop timing",
+                "opening time",
+                "when shop open",
+                "what is shop timing",
+                "shop schedule"
+            ],
+            "responses": [
+                "Monday to Thursday, 1:30 PM to 7:00 PM.",
+                "Our shop is open from 1:30 PM to 7:00 PM from Monday to Thursday."
+            ]
+        },
+        {
+            "tag": "owner_name",
+            "patterns": [
+                "what is your name",
+                "your name",
+                "who are you",
+                "bot name"
+            ],
+            "responses": [
+                "MASK",
+                "My name is MASK."
+            ]
+        },
+        {
+            "tag": "brand_information",
+            "patterns": [
+                "brand name",
+                "which brands do you sell",
+                "available brands",
+                "water brands",
+                "brands"
+            ],
+            "responses": [
+                "We sell OZO, Versha, Royal Blue and Campa Sure.",
+                "Available brands are OZO, Versha, Royal Blue and Campa Sure."
+            ]
+        },
+        {
+            "tag": "price_250ml_sp",
+            "patterns": [
+                "what is the rate of 250ml sp",
+                "rate 250ml sp",
+                "250ml sp price",
+                "250ml sp rate",
+                "price of 250ml sp"
+            ],
+            "responses": [
+                "Rs 540",
+                "The price of 250ml SP is Rs 540."
+            ]
+        },
+        {
+            "tag": "price_2l_sp",
+            "patterns": [
+                "rate 2l sp",
+                "2l sp rate",
+                "price of 2l sp",
+                "2 litre sp price",
+                "2 litre sp rate"
+            ],
+            "responses": [
+                "Rs 750",
+                "The price of 2L SP is Rs 750."
+            ]
+        }
+    ],
+    "shop name": "ozo minral water"
+}
